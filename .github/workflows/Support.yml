@@ -1,4 +1,4 @@
-name: Issue closer.
+name: Support
 
 on:
   issues:
@@ -8,7 +8,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Process an issue.
+      - name: Support
         uses: desktop-app/action_issue_closer@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: 5068342197:AAHLnlad5XVayeiOLygBwGTyqr0MhdBIxwI
